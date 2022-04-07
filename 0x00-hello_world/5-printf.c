@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - entery point
- *
- * Return - 0 exit the program
+ * printf - will print the text inside it
+ * Return: exit the program after excution
  */
 
 int main(void)
