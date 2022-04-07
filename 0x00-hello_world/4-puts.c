@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *main - the entry point for the program
+ *main - entry point 
  *
- *Returen: 0 is the exit after
+ *Return: 0 after printing the function
  */
 int main(void)
 {
