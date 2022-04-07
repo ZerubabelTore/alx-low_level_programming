@@ -2,9 +2,9 @@
 /**
  * main - this is the entry point for the program
  *
- * Returen - is the exit after 0
+ * Returen: 0 is the exit after
  */
-int main(void)
+int main (void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return(0);
