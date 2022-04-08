@@ -4,7 +4,7 @@
 /**
  * main - Print it the number is positive or negative or zero
  *
- * Returen: Always (success)
+ * Return: Always (success)
  */
 
 int main(void)
