@@ -1,8 +1,9 @@
 #include <stdio.h>
  /**
- * main - print all possible combination
+ * main - this code will print all possible combination
  *
  * Return: Always 0 Success
+ *
  */
 int main(void)
 {
