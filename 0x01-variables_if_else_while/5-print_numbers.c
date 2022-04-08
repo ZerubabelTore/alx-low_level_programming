@@ -1,19 +1,21 @@
 #include <stdio.h>
 
 /**
-  * main - this code will print the 10 digit numbers
+  * main - this program will print the 10 digit numbers
   *
   * Return: Always (Success)
   */
 int main(void)
 {
-	int a = 0;
+	char n;
 
-	while (a <= 9)
+	for (n = '0'; n <= '9'; n++)
 	{
-	    printf("%d \n", a);
-	    a++;
+		putchar(n);
 	}
+
+	putchar('\n');
+
 	return (0);
 
 }
