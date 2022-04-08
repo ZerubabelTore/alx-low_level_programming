@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 /**
- * main 
+ * main  - this cod will print an alphabetical order a small
+ * letters from a to z
  *
  * Return: Always (Success)
  */
 int main(void)
 {
-	char A = 'a';
+	char c;
 
-	while (A <= 'z')
-	{
-		putchar(A);
-		A++;
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
 
-		putchar('\n');
-		return (0);
-	}
+	putchar('\n');
+	return (0);
+
 }
