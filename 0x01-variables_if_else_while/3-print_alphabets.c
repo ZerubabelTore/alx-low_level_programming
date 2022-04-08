@@ -2,7 +2,7 @@
 
 /**
  * main - this code will print the alphabets in small letter and Capital
- * letter from a to z 
+ * letter from a to z
  *
  * Return: Always (Success)
  */
