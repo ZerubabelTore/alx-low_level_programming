@@ -4,7 +4,7 @@
 /**
  * main - Print it the number is positive or negative or zero
  *
- * Returen: 0 is success
+ * Returen: Always (success)
  *
  */
 
