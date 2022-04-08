@@ -1,6 +1,7 @@
 #include <stdio.h>
  /**
  * main - this code will print all possible combination
+ * of two diferent numbers
  *
  * Return: Always 0 Success
  *
