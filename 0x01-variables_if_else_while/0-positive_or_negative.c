@@ -2,9 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - enteri point
- *
- * if - is the condition statment
+ * main - print it the number is positive or negative or zero
  *
  * Returen: 0 is success
  *
