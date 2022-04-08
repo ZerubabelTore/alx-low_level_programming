@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - This code will show if the number n is greater than 5 or less than 6 and not 0
+ * main - This code will show if the number n is greater than 5 or
+ * less than 6 and not 0
  *
  * Return: Always (Success)
  */
