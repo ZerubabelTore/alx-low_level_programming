@@ -1,7 +1,8 @@
 #include <stdio.h>
  /**
  * main - this code will print all possible combination
- * of two diferent numbers
+ * of two diferent digits, in ascending order and separated by
+ * a comma
  *
  * Return: Always 0 Success
  *
