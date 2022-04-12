@@ -5,38 +5,39 @@
  *                     starting with 0.
  * @n: The value of the times table to be printed.
  */
-void print_times_table(int n)
+
+void print_time_table(int n)
 {
-	int num, mult, prod;
+	int a, b, c;
 
 	if (n >= 0 && n <= 15)
 	{
-		for (num = 0; num <= n; num++)
+		for (a = 0; a <= n; a++)
 		{
 			_putchar('0');
 
-			for (mult = 1; mult <= n; mult++)
+			for (b = 1; b <= n; b++)
 			{
 				_putchar(',');
 				_putchar(' ');
 
-				prod = num * mult;
+				c = a * b;
 
-				if (prod <= 99)
+				if (c <= 99)
 					_putchar(' ');
-				if (prod <= 9)
+				if (c <= 9)
 					_putchar(' ');
 
-				if (prod >= 100)
+				if (c >= 100)
 				{
-					_putchar((prod / 100) + '0');
-					_putchar(((prod / 10)) % 10 + '0');
+					_putchar((c / 100) + '0');
+					_putchar(((c / 10)) % 10 + '0');
 				}
-				else if (prod <= 99 && prod >= 10)
+				else if (c <= 99 && c >= 10)
 				{
-					_putchar((prod / 10) + '0');
+					_putchar((c / 10) + '0');
 				}
-				_putchar((prod % 10) + '0');
+				_putchar((c % 10) + '0');
 			}
 			_putchar('\n');
 		}
