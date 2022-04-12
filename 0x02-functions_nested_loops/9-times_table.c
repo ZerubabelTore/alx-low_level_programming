@@ -45,6 +45,6 @@ void times_table(void)
 				}
 			}
 		}
-		_pitchar ('\n');
+		_putchar ('\n');
 	}
 }
