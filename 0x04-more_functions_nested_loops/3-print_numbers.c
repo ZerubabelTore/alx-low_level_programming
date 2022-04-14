@@ -3,16 +3,17 @@
 /**
  * print_numbers - prints the numbers, from 0 to 9,
  * followed by a new line
- * a: neber to be checked
+ * b: number to be checked
  */
 
 void print_numbers(void)
 {
-	int a;
+	int b;
 	
-	for (a = 0; a <= 9; a++)
+	for (b <= 9)
 	{
-		_putchar("%d", a);
+		_putchar(b + '0');
+		b++;
 	}
 
 	_putchar('\n');
