@@ -9,7 +9,7 @@
 void print_numbers(void)
 {
 	int b;
-	
+
 	while (b <= 9)
 	{
 		_putchar(b + '0');
