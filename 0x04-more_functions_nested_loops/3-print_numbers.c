@@ -3,6 +3,7 @@
 /**
  * print_numbers - prints the numbers, from 0 to 9,
  * followed by a new line
+ * a: neber to be checked
  */
 
 void print_numbers(void)
@@ -11,8 +12,9 @@ void print_numbers(void)
 	
 	for (a = 0; a <= 9; a++)
 	{
-		_putchar(a + "0")
+		_putchar("%d", a);
 	}
-	_putchar('\n')
+
+	_putchar('\n');
 
 }
