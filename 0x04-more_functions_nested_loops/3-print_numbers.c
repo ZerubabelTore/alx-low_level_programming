@@ -3,17 +3,17 @@
 /**
  * print_numbers - prints the numbers, from 0 to 9,
  * followed by a new line
- * b: number to be checked
+ * a: number to be checked
  */
 
 void print_numbers(void)
 {
-	int b;
+	int a;
 
-	while (b <= 9)
+	while (a <= 9)
 	{
-		_putchar(b + '0');
-		b++;
+		_putchar(a + '0');
+		a++;
 	}
 
 	_putchar('\n');
