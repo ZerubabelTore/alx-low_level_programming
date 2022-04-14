@@ -2,7 +2,6 @@
 /**
  * print_numbers - print numbers which are betwwen
  * 9 and 0
- * @b: nuber to be checked
  *
  * Return: Always 0.
  */
