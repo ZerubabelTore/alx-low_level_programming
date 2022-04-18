@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * puts_half - This program will prints the second 
- * alf of a string.
+ * puts_half - This program will prints the second
+ * half of a string.
  *
  * @str: string to use.
  */
