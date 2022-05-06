@@ -2,8 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _atoi_digit - This function will convert a
- * char to integer.
+ * _atoi_digit - convert a char to integer.
  * @x: character to convert.
  * Return: integer.
  **/
@@ -18,8 +17,7 @@ int _atoi_digit(char x)
 }
 
 /**
- * _isNumber - This function will Define if a string
- * is a number.
+ * _isNumber - Define if a string is a number.
  * @argv: Pointer to string.
  * Return: success (0).
  **/
@@ -34,8 +32,7 @@ int _isNumber(char *argv)
 }
 
 /**
- *_calloc - This function will allocate array of
- * size * nmemb.
+ *_calloc - allocate array of size * nmemb.
  * @nmemb: number of elements.
  * @size: size of element.
  * Return: pointer to array.
@@ -58,7 +55,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 }
 
 /**
- * mul_array - This function will multiply two arrays.
+ * mul_array - multiply two arrays.
  * @a1: first array.
  * @len1: length of array a1.
  * @a2:  char.
@@ -91,7 +88,7 @@ void *mul_array(char *a1, int len1, char a2, char *a3, int lena)
 	return (a3);
 }
 /**
- * print_array - and This function print all digits of array.
+ * print_array - print all digits of array.
  * @nb: number of elements to print.
  * @a: array of elements.
  **/
@@ -111,8 +108,7 @@ void print_array(char *a, int nb)
 }
 
 /**
- *main - This function will print the multiplication
- *of 2 numbers.
+ *main - print the multiplication of 2 numbers.
  *@argc: array length.
  *@argv: array.
  *Return: 0.
