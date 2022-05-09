@@ -1,6 +1,5 @@
 #ifndef STRUCTS
 #define STRUCTS
-
 /**
  * struct dog - description for a pet
  * @name: pet name
@@ -9,7 +8,6 @@
  *
  * Description: Longer description
  */
-
 typedef struct dog
 {
 	char *name;
@@ -17,7 +15,6 @@ typedef struct dog
 	char *owner;
 } dog_t;
 #endif
-
 #ifndef _FUNCTIONS_H
 #define _FUNCTIONS_H
 int _putchar(char c);
