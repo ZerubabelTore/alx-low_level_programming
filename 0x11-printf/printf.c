@@ -2,7 +2,7 @@
 /**
  * _printf - printf function.
  * @format: variable
- * cmp_func: ...
+ *
  * Return: nbytes printed.
  */
 int _printf(const char *format, ...)
@@ -46,6 +46,13 @@ int _printf(const char *format, ...)
 		va_end(list);
 		return (characters_number);
 }
+
+/**
+ * cmp_func - ...
+ * @a: variable
+ * Return: nbytes printed.
+ */
+
 int (*cmp_func(const char a)) (va_list)
 {
 	print_f printf[] = {
