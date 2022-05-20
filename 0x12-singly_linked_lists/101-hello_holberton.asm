@@ -3,9 +3,9 @@
 ; Desc: this is 64-bit assembly program that prints
 ;       "Hello, Holberton" followed by a new line.
 
-extern print
+extern printf
 
-section .text
+section .tex
    global main
 
 main:
